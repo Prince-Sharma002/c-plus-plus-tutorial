@@ -6,7 +6,7 @@
 
 ```c++
 
-                                                                         // Merge sort
+                                                                // Merge sort
 
 void merge(int arr[] , int s , int e){
     
