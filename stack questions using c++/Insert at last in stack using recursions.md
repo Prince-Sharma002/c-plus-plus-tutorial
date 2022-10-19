@@ -2,25 +2,6 @@
 
 ```c++
 
-bool isValidParenthesis(string expression)
-{
-  
-    stack<int> solve( stack<int>& s, int x ){
-    
-    
-    // base condition
-    if(s.empty()){
-        s.push(x);
-        return s;
-    }
-    
-    int num = s.top();
-    s.pop();
-    solve(  s,  x );
-    s.push(num);
-    return s;
-    
-}
 
 stack<int> pushAtBottom(stack<int>& myStack, int x) 
 {
@@ -36,6 +17,6 @@ stack<int> pushAtBottom(stack<int>& myStack, int x)
 }
     
     
-}
+
 
 ```
