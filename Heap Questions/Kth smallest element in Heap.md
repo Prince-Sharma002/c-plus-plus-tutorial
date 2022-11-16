@@ -26,4 +26,7 @@ int kthSmallest(int arr[], int l, int r, int k) {
         
 }
 
+time complexity - o( nlog(k))
+space complexity - 0(k)
+
 ```
